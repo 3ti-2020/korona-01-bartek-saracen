@@ -16,7 +16,7 @@ body {
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: 20% 5% 40% 20% 15%;
     grid-template-areas: 
-    "f a a a g"
+    "a a a a a"
     "f b b b g"
     "f c c c g"
     "f d d d g"
@@ -29,6 +29,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
 }
 
 nav {
