@@ -86,7 +86,31 @@ main {
     background: rgb(44, 44, 44);
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.ranking {
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    background: wheat;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ranking ul {
+    list-style-type: decimal;
+    margin-top: 200px;
+}
+
+.ranking a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 700;
 }
 
 footer {
@@ -102,24 +126,4 @@ footer > h1 {
 footer > h1 > a {
     text-decoration: none;
     color: greenyellow;
-}
-
-table {
-    background: rgb(243, 165, 21);
-}
-
-table, td, th {
-    margin: auto;
-    border-radius: 10px;
-    border: 2px solid black;
-    text-align: center;
-}
-
-tr {
-    background: yellow;
-}
-
-tr:nth-child(even) {
-    background: red;
-    color: white;
 }
