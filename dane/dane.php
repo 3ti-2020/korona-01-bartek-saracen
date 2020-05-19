@@ -13,7 +13,11 @@
 <body>
     <?php
         function daty($sql){
-            require("connect.php");
+            $servername = "127.0.0.1";
+    $username = "root";
+    $password = "";
+    $dbname = "bartek saracen";
+    $conn = new mysqli($servername, $username, $password, $dbname);
             $result=$conn->query($sql);
             echo("<table>");
             echo("<tr>
@@ -30,7 +34,11 @@
             mysqli_close($conn);
         }
         function siema($sql){
-            require("connect.php");
+            $servername = "127.0.0.1";
+    $username = "root";
+    $password = "";
+    $dbname = "bartek saracen";
+    $conn = new mysqli($servername, $username, $password, $dbname);
             $result=$conn->query($sql);
             echo("<table>");
             echo("<tr>
