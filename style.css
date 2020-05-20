@@ -46,24 +46,19 @@ nav {
     align-items: center;
 }
 
-.lista {
+.A {
     margin-left: 20px;
-    border-radius: 20px;
-    width: 90px;
-    height: 45px;
+}
+
+.lista:hover {
     background: royalblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 1000;
-    color: white;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .A > a {
     text-decoration: none;
-        margin-left: 20px;
         border-radius: 20px;
-        width: 90px;
+        width: 120px;
         height: 45px;
         background: royalblue;
         display: flex;
@@ -77,26 +72,23 @@ a:hover {
     background: rgb(102, 133, 226);
 }
 
-.lista:hover {
-    background: rgb(102, 133, 226);
-    border-radius: 20px 20px 0px 0px;
-}
-
 .lista > ul {
     display: none;
     list-style: none;
-    margin-top: 72px;
     position: absolute;
+
+}
+
+.B:hover{
+    border-radius: 20px 20px 0px 0px;
 }
 
 .lista > ul > li {
     background: royalblue;
-    padding: 17px 25px;
 }
 
 .lista > ul > li:hover {
     background: rgb(102, 133, 226);
-    border: 1px solid black;
 }
 
 .lista:hover > ul {
@@ -106,6 +98,11 @@ a:hover {
 .lista > ul > li > a {
     text-decoration: none;
     color: white;
+    width: 120px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .b {
