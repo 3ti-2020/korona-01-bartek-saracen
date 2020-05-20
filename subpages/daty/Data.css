@@ -6,7 +6,7 @@
 
 body {
     background-image: url(../../images/jd.png);
-    background-attachment: fixed;
+    background-attachment: fixed
 }
 
 .container {
@@ -84,6 +84,9 @@ nav a:hover {
 main {
     grid-area: m;
     background: rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 footer {
