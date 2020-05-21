@@ -6,7 +6,7 @@
 
 body {
     background-image: url(../../images/jd.png);
-    background-attachment: fixed
+    background-attachment: fixed;
 }
 
 .container {
@@ -76,6 +76,29 @@ main {
     flex-direction: column;
 }
 
+#spis h1 {
+    margin-left: 180px;
+}
+
+#spis li a {
+    text-decoration: none;
+    color: black;
+}
+
+.chowaj {
+    width: 20px;
+    height: 300px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 1000;
+    background: rgb(243, 165, 21);
+    cursor: pointer;
+}
+
+#spis li a:hover {
+    color: red;
+}
+
 .ost {
     margin-bottom: 100px;
 }
@@ -101,10 +124,12 @@ footer > h1 > a {
 
 #spis {
     position: fixed;
-    background: lightblue;
+    background: rgb(131, 142, 146);
     width: 500px;
     height: 300px;
-    display: block;
+    display: flex;
     border-radius: 10px 10px 10px 10px; 
     list-style: none;
+    align-items: center;
+    justify-content: space-between;
 }
