@@ -113,7 +113,8 @@ main {
     grid-area: m;
     background: rgb(44, 44, 44);
     display: flex; 
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {

@@ -6,7 +6,7 @@
     <title>Strona główna</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="nextslajd()">
     <div class="container">
         <header>
             <h1>minecraft<span>NERO</span></h1>
@@ -27,13 +27,14 @@
             </div>
         </nav>
         <main>
-            <img src="images/img.png">
-            <img src="images/img2.png">
+            <div id="slajd"></div>
         </main>
         <section></section>
         <footer>
             <h1>Odwiedź mój kanał, kliknij <a href="https://www.youtube.com/user/minecraftNero120" target="_blank">tutaj !</a></h1>
         </footer>
     </div>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
